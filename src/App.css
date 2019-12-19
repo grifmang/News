@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  color: white;
+}
+
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 230px;
+  margin: 10% auto;
+  top: 30%;
+}
+
+.article-card {
+  width: 75%;
+  height: 150px;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  margin: 5px auto;
+  align-content: space-around;
+}
+
+.cat-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+}
+
+.profile-site-buttons {
+  margin: 5px;
+  border: ghostwhite;
+  color: ghostwhite;
+}
+
+.news-title {
+  text-align: center;
+  color: white;
+}
+
+.article-card-elements {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.article-card-img {
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: .6rem;
+}
+
+p {
+  font-size: .9rem;
+  line-height: normal;
+}
+
+.article-card-elements a {
+  color: whitesmoke;
+  margin-left: auto;
+}
+
+.menu {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  text-align: end;
+  background-color: ghostwhite;
+}
+
+.nav-links {
+  margin-left: auto;
+  margin-right: 2%;
+}
